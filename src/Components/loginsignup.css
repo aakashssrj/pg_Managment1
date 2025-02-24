@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin : auto;
+    background-color: white;
+    
+}
+
+.text  {
+    color: blue;
+}
+
+
+
+.inputs{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    background-color: #eaeaea;
+}
+
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 15px auto;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    background-color: #4c00b4;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    align-items: center;
+
+}
+
