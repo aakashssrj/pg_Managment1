@@ -1,23 +1,16 @@
 import { useState } from 'react'
-import LoginSignup from './Components/loginsignup'
+import LoginSignup from './Components/loginsignup';
+import Form from './Components/Form';
 import "./App.css";
-// import "./App.css";
-
-
-
-
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    <div>
-    <LoginSignup/>
-    </div>
+        <Form/>
     </>
   )
 }
 
-export default App
+export default App;

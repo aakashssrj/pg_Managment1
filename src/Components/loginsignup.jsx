@@ -1,25 +1,36 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import email from '../assets/email.png'
 import pss from '../assets/pss.png'
 import user from '../assets/user.png'
 import { useState } from 'react'
-import './loginsignup.css';
 
 
 
 const LoginSignup = () => {
 
-  const [data, setdata] = useState(0)
-    console.log({data})
-  const handle = ()=>{
-    setdata(data+1);
-  }
+  const arr1=[
+    {name:"Aakash",},
+    {address:"JNK"},
+    {des : "SDE1"}
+  ]
+
+    const [result,setresult] = useState(arr1);
+
+        useEffect(()=>{
+          console.log(result)
+        },[result])
+
+
+    const handle = () =>{
+      setresult(arr1)
+    };
 
   return (
     <>
-    
-    <button onClick={handle}>Click Here {data}</button>
-    
+          <button onClick = {handle} >
+            Click Here
+          </button>
+
     </>
     // <div>
     //   <div className="container">
@@ -54,4 +65,4 @@ const LoginSignup = () => {
   )
 }
 
-export default LoginSignup
+export default LoginSignup;
