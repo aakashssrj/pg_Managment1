@@ -17,11 +17,11 @@ const Form3 = () => {
                 <input type="text" />
             </div>
             <div className="input">
-                <img src="{}" alt="" />
+                <img src="{email}" alt="" />
                 <input type="email" />
             </div>
             <div className="input">
-                <img src="{}" alt="" />
+                <img src="{password}" alt="" />
                 <input type="password" />
             </div>
 
