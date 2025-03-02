@@ -21,7 +21,7 @@ const Form3 = () => {
                 <input type="email" />
             </div>
             <div className="input">
-                <img src="{password}" alt="" />
+                <img src="{passwod}" alt="" />
                 <input type="password" />
             </div>
 
