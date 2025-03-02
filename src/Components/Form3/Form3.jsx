@@ -1,5 +1,8 @@
 import React from 'react'
 import './Form3.css'
+import person from './person.png'
+import email from './email.png'
+import password from './password.png'
 const Form3 = () => {
   return (
    <>
@@ -10,7 +13,7 @@ const Form3 = () => {
         </div>
         <div className="inputs">
             <div className="input">
-                <img src="{}" alt="" />
+                <img src="{person}" alt="" />
                 <input type="text" />
             </div>
             <div className="input">
